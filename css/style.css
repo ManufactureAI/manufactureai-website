@@ -97,7 +97,7 @@ p{
 
 .header{
 	text-align:center;
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/background2.gif);
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/background.gif);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
