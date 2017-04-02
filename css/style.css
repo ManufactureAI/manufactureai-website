@@ -97,7 +97,10 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../img/space.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
 	padding:280px 0;
 }
 .logo{
@@ -201,6 +204,12 @@ color: #fff;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+.main-nav li a{
+	margin:17px 5px;
+}
 }
 
 .main-nav li a:hover{
@@ -493,12 +502,12 @@ border: 2px solid #fff;
 /* Team
 ---------------------------------*/
 .team-leader-block{
-	max-width:993px;
+	/*max-width:993px;*/
 	margin:0 auto;
 }
 .team-leader-box{
-	width:30.66%;
-	margin-right: 3.82979%;
+	/*width:30.66%;*/
+	/*margin-right: 3.82979%;*/
 	height: 490px;
 	overflow: hidden;
 	text-align: center;
