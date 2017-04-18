@@ -62,7 +62,6 @@
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script src="contactform/contactform.js"></script>
 
 <!-- =======================================================
     Theme Name: Knight
@@ -310,7 +309,11 @@
                     <div id="errormessage"></div>
                     <form action="" method="post" role="form" id="contact-form">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="first_name" class="form-control input-text" id="first_name" placeholder="First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="last_name" class="form-control input-text" id="last_name" placeholder="Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
@@ -326,7 +329,7 @@
                             <div class="validation"></div>
                         </div>
 
-                        <div class="text-center"><a href="mailto:alejandro@manufactureai.com" type="submit" class="btn btn-success">Send Message</a></div>
+                        <div class="text-center"><input type="submit" value="Send Message" class="btn btn-success" /></div>
                     </form>
                 </div>
             </div>
